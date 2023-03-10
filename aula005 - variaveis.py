@@ -7,6 +7,7 @@ c = float(3) #c será 3.0
 #python é case sensitive, letras maiusculas e minusculas são diferentes
 d = 4
 D = "alfa"
+e = y + D
 
 e, f, g = "Banana", "Maça", "Laranja"
 
@@ -29,3 +30,5 @@ print(d)
 print(D)
 print(frutas)
 print(l)
+print("Python é " + D)
+print(y + str(w))
