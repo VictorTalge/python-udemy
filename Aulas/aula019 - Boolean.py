@@ -12,3 +12,30 @@ else:
     
 print(bool("Ola"))
 print(bool(15))
+print(bool(["apple", "cherry", "banana"]))
+x = 0
+y = ""
+print(bool(x))
+print(bool(y))
+
+#valores que retornan false
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
+
+def myFuction():
+    return True
+
+print(myFuction())
+
+if myFuction():
+    print("Sim")
+else:
+    print("Não")
+    
+x = 200
+print(isinstance(x, float))
